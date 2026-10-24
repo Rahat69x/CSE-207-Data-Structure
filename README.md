@@ -12,37 +12,41 @@
 
 ## 📌 Repository Overview
 
-This repository strictly follows the official **East West University CSE 207 Data Structures Lab Manual** sequence (Experiments 1 to 10) by Dr. Anup Kumar Paul, along with the **Student Record Management System using Binary Search Tree (BST)** Mini Project.
+This repository contains:
+1. **The Official 10 Lab Experiments (1 to 10)** strictly following the East West University CSE 207 Lab Manual by Dr. Anup Kumar Paul.
+2. **Mini Project:** Student Record Management System using a pure Binary Search Tree (BST) Data Structure.
+
+Every program is written cleanly in C++ with **no duplicate files**.
 
 ---
 
-## 🔬 List of Experiments (Sequential Order from Lab Manual)
+## 🔬 Official Lab Experiments (Sequence 1 to 10)
 
-| Exp # | Experiment Title | Implemented Algorithms & Operations | File Link |
-|:---:|---|---|:---:|
-| **01** | **Searching Algorithms** | • Linear Search<br>• Binary Search | [Experiment_01_Searching_Algorithms.cpp](file:///c:/5th%20sem/project/Experiment_01_Searching_Algorithms.cpp) |
-| **02** | **Sorting Algorithms** | • Bubble Sort<br>• Selection Sort | [Experiment_02_Sorting_Algorithms.cpp](file:///c:/5th%20sem/project/Experiment_02_Sorting_Algorithms.cpp) |
-| **03** | **Matrix Operations** | • Matrix Addition<br>• Matrix Subtraction<br>• Matrix Multiplication<br>• Matrix Transpose | [Experiment_03_Matrix_Operations.cpp](file:///c:/5th%20sem/project/Experiment_03_Matrix_Operations.cpp) |
-| **04** | **Singly Linked List** | • Insert (Start, End, Any Position)<br>• Delete (Start, End, Any Position)<br>• Traversal & Node Counter | [Experiment_04_Singly_Linked_List.cpp](file:///c:/5th%20sem/project/Experiment_04_Singly_Linked_List.cpp) |
-| **05** | **Stack Operations** | • Push (with Overflow check)<br>• Pop (with Underflow check)<br>• Peek<br>• Print (Top to Bottom) | [Experiment_05_Stack_Operations.cpp](file:///c:/5th%20sem/project/Experiment_05_Stack_Operations.cpp) |
-| **06** | **Stack Applications** | • Infix to Postfix Conversion<br>• Postfix Expression Evaluation | [Experiment_06_Stack_Applications.cpp](file:///c:/5th%20sem/project/Experiment_06_Stack_Applications.cpp) |
-| **07** | **Queue Operations** | • Linear Queue (Enqueue, Dequeue, Print)<br>• Circular Queue (Modulo Indexing) | [Experiment_07_Queue_Operations.cpp](file:///c:/5th%20sem/project/Experiment_07_Queue_Operations.cpp) |
-| **08** | **Recursive Functions** | • Factorial of an integer<br>• Fibonacci number by index<br>• Print numbers 100 to 1 reverse<br>• Print message "JAVA" 100 times<br>• Palindrome string checker | [Experiment_08_Recursive_Functions.cpp](file:///c:/5th%20sem/project/Experiment_08_Recursive_Functions.cpp) |
-| **09** | **Binary Search Tree** | • Insert element into BST<br>• Delete element (Leaf, 1 Child, 2 Children with Inorder Successor)<br>• Search element<br>• Pre-order, In-order, Post-order & Level-order Traversals | [Experiment_09_Binary_Search_Tree.cpp](file:///c:/5th%20sem/project/Experiment_09_Binary_Search_Tree.cpp) |
-| **10** | **Graph Operations** | • Graph Adjacency List<br>• Breadth First Traversal (BFT / BFS)<br>• Depth First Traversal (DFT / DFS) | [Experiment_10_Graph_Operations.cpp](file:///c:/5th%20sem/project/Experiment_10_Graph_Operations.cpp) |
-| **+** | **Doubly Linked List** | • Two-way pointers (`prev` & `next`), insert/delete (first, middle, last) | [Doubly_Linked_List_Operations.cpp](file:///c:/5th%20sem/project/Doubly_Linked_List_Operations.cpp) |
+| Exp # | File Name | Topics & Implemented Algorithms |
+|:---:|---|---|
+| **01** | **[Experiment_01_Searching_Algorithms.cpp](file:///c:/5th%20sem/project/Experiment_01_Searching_Algorithms.cpp)** | **Searching:** Linear Search $O(n)$ & Binary Search $O(\log n)$ |
+| **02** | **[Experiment_02_Sorting_Algorithms.cpp](file:///c:/5th%20sem/project/Experiment_02_Sorting_Algorithms.cpp)** | **Sorting:** Bubble Sort & Selection Sort |
+| **03** | **[Experiment_03_Matrix_Operations.cpp](file:///c:/5th%20sem/project/Experiment_03_Matrix_Operations.cpp)** | **Matrix Operations:** Addition, Subtraction, Multiplication, Transpose |
+| **04** | **[Experiment_04_Singly_Linked_List.cpp](file:///c:/5th%20sem/project/Experiment_04_Singly_Linked_List.cpp)** | **Singly Linked List:** Insert/Delete (Start, End, Any Position), Traversal |
+| **05** | **[Experiment_05_Stack_Operations.cpp](file:///c:/5th%20sem/project/Experiment_05_Stack_Operations.cpp)** | **Stack Operations:** Push (Overflow check), Pop (Underflow check), Peek, Print |
+| **06** | **[Experiment_06_Stack_Applications.cpp](file:///c:/5th%20sem/project/Experiment_06_Stack_Applications.cpp)** | **Stack Applications:** Infix to Postfix Conversion & Postfix Evaluation |
+| **07** | **[Experiment_07_Queue_Operations.cpp](file:///c:/5th%20sem/project/Experiment_07_Queue_Operations.cpp)** | **Queue Operations:** Linear Queue & Circular Queue (Modulo Indexing) |
+| **08** | **[Experiment_08_Recursive_Functions.cpp](file:///c:/5th%20sem/project/Experiment_08_Recursive_Functions.cpp)** | **Recursion:** Factorial, Fibonacci, Print 100 to 1 reverse, "JAVA" 100 times, Palindrome |
+| **09** | **[Experiment_09_Binary_Search_Tree.cpp](file:///c:/5th%20sem/project/Experiment_09_Binary_Search_Tree.cpp)** | **Binary Search Tree (BST):** Insert, Search, 3-Case Deletion, Pre/In/Post/Level-order |
+| **10** | **[Experiment_10_Graph_Operations.cpp](file:///c:/5th%20sem/project/Experiment_10_Graph_Operations.cpp)** | **Graph Operations:** Adjacency List, Breadth First (BFT), Depth First (DFT) |
 
 ---
 
 ## 🌟 Mini Project: Student Record Management System (BST)
 
-An authentic C++ Object-Oriented Management System using a **Binary Search Tree (BST)** without external libraries or databases:
-- **[Student.h](file:///c:/5th%20sem/project/Student.h) & [Student.cpp](file:///c:/5th%20sem/project/Student.cpp)**: Student record (Name, Roll, Course, Marks, CGPA).
-- **[Node.h](file:///c:/5th%20sem/project/Node.h) & [Node.cpp](file:///c:/5th%20sem/project/Node.cpp)**: BST Node with left and right pointers.
-- **[StudentBST.h](file:///c:/5th%20sem/project/StudentBST.h) & [StudentBST.cpp](file:///c:/5th%20sem/project/StudentBST.cpp)**: BST Insert, Search, 3-Case Deletion, Inorder/Preorder/Postorder traversals, and Tree Metrics.
-- **[main.cpp](file:///c:/5th%20sem/project/main.cpp)**: Interactive console menu with Automatic Unique Roll Generator.
+A complete C++ Object-Oriented management system built using an authentic **Binary Search Tree (BST)**:
+- **`Student.h` & `Student.cpp`**: Student class with Encapsulation (Name, Roll, Course, Marks, CGPA).
+- **`Node.h` & `Node.cpp`**: BST Node structure with left/right pointers.
+- **`StudentBST.h` & `StudentBST.cpp`**: Core BST operations (Insert, Search, 3-case Deletion, Traversals, Tree Metrics).
+- **`main.cpp`**: Interactive console user interface with Automatic Unique Roll Generator.
+- **`cover.pdf`**: Official University project report cover.
 
-### How to Compile and Run the Mini Project:
+### How to Compile & Run the Mini Project:
 ```bash
 g++ -std=c++17 Student.cpp Node.cpp StudentBST.cpp main.cpp -o StudentRecordSystem.exe
 ./StudentRecordSystem.exe
@@ -50,13 +54,13 @@ g++ -std=c++17 Student.cpp Node.cpp StudentBST.cpp main.cpp -o StudentRecordSyst
 
 ---
 
-## 🚀 How to Run Any Specific Experiment:
+## 🚀 How to Compile & Run Any Specific Experiment:
 ```bash
-# Example: Running Experiment 1
+# Example: Experiment 1 (Searching Algorithms)
 g++ -std=c++17 Experiment_01_Searching_Algorithms.cpp -o exp1.exe
 ./exp1.exe
 
-# Example: Running Experiment 9 (BST)
+# Example: Experiment 9 (Binary Search Tree)
 g++ -std=c++17 Experiment_09_Binary_Search_Tree.cpp -o exp9.exe
 ./exp9.exe
 ```
