@@ -33,6 +33,7 @@ This repository is organized with both standalone, simple-to-run C++ programs in
 | `Binary_Search_Tree_Operations.cpp` | Trees | BST Insert, Search, Deletion (3 cases), Traversals |
 | `Graph_BFS_and_DFS_Traversal.cpp` | Graphs | Graph Adjacency List, BFS (Queue) and DFS (Stack) |
 | `Recursion_Factorial_Fibonacci_Palindrome.cpp` | Recursion | Factorial, Fibonacci, Reverse Print, Palindrome check |
+| `Sorting_Algorithms_Bubble_Selection_Insertion.cpp` | Sorting | Bubble Sort, Selection Sort, and Insertion Sort |
 
 ---
 
