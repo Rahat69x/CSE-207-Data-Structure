@@ -68,12 +68,12 @@ int main() {
     cout << "\n--- b. Fibonacci at index 6 ---\n";
     cout << "Fib(6) = " << fib(6) << endl;
 
-    cout << "\n--- c. Print numbers in reverse order (e.g. 10 to 1) ---\n";
-    printNumber(10);
-    cout << "\n(For 100 to 1, call printNumber(100))\n";
+    cout << "\n--- c. Print numbers 100 to 1 in reverse order ---\n";
+    printNumber(100);
+    cout << endl;
 
-    cout << "\n--- d. Print 'Java' 5 times (for demo, call printJava(100) for 100 times) ---\n";
-    printJava(5);
+    cout << "\n--- d. Print message 'Java' 100 times ---\n";
+    printJava(100);
     cout << endl;
 
     cout << "\n--- e. Palindrome Check ---\n";
