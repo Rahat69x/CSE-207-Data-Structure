@@ -1,50 +1,48 @@
-# CSE 207 - Data Structures & Algorithms
+# CSE 207: Data Structures (Official Lab Experiments & Mini Project)
 
-**Course:** CSE 207 - Data Structures  
 **Institution:** East West University  
+**Department:** Computer Science and Engineering  
+**Course:** CSE 207 (Data Structures)  
+**Instructor:** Dr. Anup Kumar Paul, Associate Professor  
 **Student Name:** Mahamudol Hasan Rahat  
 **Student ID:** 2025-1-60-149  
 **Section:** 03  
-**Faculty:** Dr. Anup Kumar Paul, Associate Professor, Department of CSE  
 
 ---
 
-## 📌 Repository "About" Description (for GitHub)
+## 📌 Repository Overview
 
-> **This is a C++ Data Structures repository for the CSE207 course. It includes programs like Doubly Linked Lists, Stacks, Queues, Binary Search Trees, Graph Traversals, and a Student Record Management System using BST.**
-
----
-
-## 📂 Repository Contents
-
-This repository is organized with both standalone, simple-to-run C++ programs in the root directory (matching traditional lab task conventions) and the comprehensive **Student Record Management System (BST Mini Project)**:
-
-### 🚀 Standalone Programs (Directly Viewable & Runnable)
-| File Name | Topic | Description |
-|---|---|---|
-| `Detect_whether_the_array_is_sorted.cpp` | Arrays | Checks if elements in an array are sorted in ascending order |
-| `Linear_Search_and_Binary_Search.cpp` | Searching | Linear Search $O(n)$ vs. Binary Search $O(\log n)$ |
-| `Doubly_Linked_List_Operations.cpp` | Linked Lists | Insertion, Deletion (First, Middle, Last) & Traversal |
-| `Stack_Implementation_using_Array.cpp` | Stacks | LIFO Stack (Push, Pop, Peek, Display) with boundary checks |
-| `Infix_to_Postfix_Conversion.cpp` | Stack Apps | Operator precedence parsing and Infix to Postfix conversion |
-| `Postfix_Expression_Evaluation.cpp` | Stack Apps | Postfix expression calculation using operand stack |
-| `Linear_Queue_using_Array.cpp` | Queues | FIFO Queue (Enqueue, Dequeue, Display) |
-| `Circular_Queue_using_Array.cpp` | Queues | Circular Queue with modulo arithmetic wrapping |
-| `Binary_Search_Tree_Operations.cpp` | Trees | BST Insert, Search, Deletion (3 cases), Traversals |
-| `Graph_BFS_and_DFS_Traversal.cpp` | Graphs | Graph Adjacency List, BFS (Queue) and DFS (Stack) |
-| `Recursion_Factorial_Fibonacci_Palindrome.cpp` | Recursion | Factorial, Fibonacci, Reverse Print, Palindrome check |
-| `Sorting_Algorithms_Bubble_Selection_Insertion.cpp` | Sorting | Bubble Sort, Selection Sort, and Insertion Sort |
+This repository strictly follows the official **East West University CSE 207 Data Structures Lab Manual** sequence (Experiments 1 to 10) by Dr. Anup Kumar Paul, along with the **Student Record Management System using Binary Search Tree (BST)** Mini Project.
 
 ---
 
-### 🌟 Mini Project: Student Record Management System (BST)
-A full Object-Oriented C++ management system built manually using a **Binary Search Tree (BST)**:
-- **`Student.h` & `Student.cpp`**: Student entity with Name, Roll Number, Course, Total Marks, CGPA.
-- **`Node.h` & `Node.cpp`**: BST Node structure with left/right pointers.
-- **`StudentBST.h` & `StudentBST.cpp`**: Core BST operations (Insert with unique check, Search $O(\log n)$, 3-case Deletion, Preorder, Inorder, Postorder, Tree Metrics).
-- **`main.cpp`**: Interactive console user interface with auto random unique roll generator.
+## 🔬 List of Experiments (Sequential Order from Lab Manual)
 
-#### How to run the Mini Project:
+| Exp # | Experiment Title | Implemented Algorithms & Operations | File Link |
+|:---:|---|---|:---:|
+| **01** | **Searching Algorithms** | • Linear Search<br>• Binary Search | [Experiment_01_Searching_Algorithms.cpp](file:///c:/5th%20sem/project/Experiment_01_Searching_Algorithms.cpp) |
+| **02** | **Sorting Algorithms** | • Bubble Sort<br>• Selection Sort | [Experiment_02_Sorting_Algorithms.cpp](file:///c:/5th%20sem/project/Experiment_02_Sorting_Algorithms.cpp) |
+| **03** | **Matrix Operations** | • Matrix Addition<br>• Matrix Subtraction<br>• Matrix Multiplication<br>• Matrix Transpose | [Experiment_03_Matrix_Operations.cpp](file:///c:/5th%20sem/project/Experiment_03_Matrix_Operations.cpp) |
+| **04** | **Singly Linked List** | • Insert (Start, End, Any Position)<br>• Delete (Start, End, Any Position)<br>• Traversal & Node Counter | [Experiment_04_Singly_Linked_List.cpp](file:///c:/5th%20sem/project/Experiment_04_Singly_Linked_List.cpp) |
+| **05** | **Stack Operations** | • Push (with Overflow check)<br>• Pop (with Underflow check)<br>• Peek<br>• Print (Top to Bottom) | [Experiment_05_Stack_Operations.cpp](file:///c:/5th%20sem/project/Experiment_05_Stack_Operations.cpp) |
+| **06** | **Stack Applications** | • Infix to Postfix Conversion<br>• Postfix Expression Evaluation | [Experiment_06_Stack_Applications.cpp](file:///c:/5th%20sem/project/Experiment_06_Stack_Applications.cpp) |
+| **07** | **Queue Operations** | • Linear Queue (Enqueue, Dequeue, Print)<br>• Circular Queue (Modulo Indexing) | [Experiment_07_Queue_Operations.cpp](file:///c:/5th%20sem/project/Experiment_07_Queue_Operations.cpp) |
+| **08** | **Recursive Functions** | • Factorial of an integer<br>• Fibonacci number by index<br>• Print numbers 100 to 1 reverse<br>• Print message "JAVA" 100 times<br>• Palindrome string checker | [Experiment_08_Recursive_Functions.cpp](file:///c:/5th%20sem/project/Experiment_08_Recursive_Functions.cpp) |
+| **09** | **Binary Search Tree** | • Insert element into BST<br>• Delete element (Leaf, 1 Child, 2 Children with Inorder Successor)<br>• Search element<br>• Pre-order, In-order, Post-order & Level-order Traversals | [Experiment_09_Binary_Search_Tree.cpp](file:///c:/5th%20sem/project/Experiment_09_Binary_Search_Tree.cpp) |
+| **10** | **Graph Operations** | • Graph Adjacency List<br>• Breadth First Traversal (BFT / BFS)<br>• Depth First Traversal (DFT / DFS) | [Experiment_10_Graph_Operations.cpp](file:///c:/5th%20sem/project/Experiment_10_Graph_Operations.cpp) |
+| **+** | **Doubly Linked List** | • Two-way pointers (`prev` & `next`), insert/delete (first, middle, last) | [Doubly_Linked_List_Operations.cpp](file:///c:/5th%20sem/project/Doubly_Linked_List_Operations.cpp) |
+
+---
+
+## 🌟 Mini Project: Student Record Management System (BST)
+
+An authentic C++ Object-Oriented Management System using a **Binary Search Tree (BST)** without external libraries or databases:
+- **[Student.h](file:///c:/5th%20sem/project/Student.h) & [Student.cpp](file:///c:/5th%20sem/project/Student.cpp)**: Student record (Name, Roll, Course, Marks, CGPA).
+- **[Node.h](file:///c:/5th%20sem/project/Node.h) & [Node.cpp](file:///c:/5th%20sem/project/Node.cpp)**: BST Node with left and right pointers.
+- **[StudentBST.h](file:///c:/5th%20sem/project/StudentBST.h) & [StudentBST.cpp](file:///c:/5th%20sem/project/StudentBST.cpp)**: BST Insert, Search, 3-Case Deletion, Inorder/Preorder/Postorder traversals, and Tree Metrics.
+- **[main.cpp](file:///c:/5th%20sem/project/main.cpp)**: Interactive console menu with Automatic Unique Roll Generator.
+
+### How to Compile and Run the Mini Project:
 ```bash
 g++ -std=c++17 Student.cpp Node.cpp StudentBST.cpp main.cpp -o StudentRecordSystem.exe
 ./StudentRecordSystem.exe
@@ -52,18 +50,18 @@ g++ -std=c++17 Student.cpp Node.cpp StudentBST.cpp main.cpp -o StudentRecordSyst
 
 ---
 
-### 🧪 Official Lab Reports (Folder-based Archive)
-All university lab report submissions are neatly organized in the `Lab_Reports/` directory:
-- `Lab_Reports/01_Doubly_Linked_List/`
-- `Lab_Reports/02_Recursion/`
-- `Lab_Reports/03_Queue/`
-- `Lab_Reports/04_Circular_Queue/`
-- `Lab_Reports/05_Stack_Array/`
-- `Lab_Reports/06_Infix_Postfix/`
-- `Lab_Reports/07_Binary_Search_Tree/`
-- `Lab_Reports/08_Graph_BFS_DFS/`
+## 🚀 How to Run Any Specific Experiment:
+```bash
+# Example: Running Experiment 1
+g++ -std=c++17 Experiment_01_Searching_Algorithms.cpp -o exp1.exe
+./exp1.exe
+
+# Example: Running Experiment 9 (BST)
+g++ -std=c++17 Experiment_09_Binary_Search_Tree.cpp -o exp9.exe
+./exp9.exe
+```
 
 ---
 
 ## 📜 License
-Developed for academic purposes at East West University.
+Developed for academic coursework at East West University.
