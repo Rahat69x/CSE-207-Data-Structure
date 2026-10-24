@@ -1,0 +1,15 @@
+# Compiled binaries and executables
+*.exe
+*.o
+*.obj
+*.out
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating System files
+Thumbs.db
+[Dd]esktop.ini
