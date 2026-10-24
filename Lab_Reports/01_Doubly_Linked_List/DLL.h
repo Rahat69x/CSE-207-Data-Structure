@@ -99,10 +99,12 @@ public:
         if (start == nullptr) {
             cout << "List is Empty" << endl;
         } else {
+            Node* toDelete = start;
             start = start->next;
             if (start != nullptr) {
                 start->prev = nullptr;
             }
+            delete toDelete;
         }
     }
 
@@ -120,8 +122,12 @@ public:
                     temp = temp->next;
                     ctr++;
                 }
-                temp->next->next->prev = temp;
-                temp->next = temp->next->next;
+                Node* toDelete = temp->next;
+                if (toDelete->next != nullptr) {
+                    toDelete->next->prev = temp;
+                }
+                temp->next = toDelete->next;
+                delete toDelete;
             }
         }
     }
@@ -134,7 +140,9 @@ public:
             while (temp->next->next != nullptr) {
                 temp = temp->next;
             }
+            Node* toDelete = temp->next;
             temp->next = nullptr;
+            delete toDelete;
         }
     }
 };

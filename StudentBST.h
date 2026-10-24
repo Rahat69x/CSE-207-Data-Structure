@@ -7,30 +7,45 @@ class StudentBST {
 private:
     Node* root; // BST-এর মূল রুট পয়েন্টার
 
-    // Private Helper Recursive Methods (BST-এর মূল অ্যালগরিদমসমূহ)
+    // Private Helper Recursive Methods (BST Core Algorithms)
     Node* insertHelper(Node* current, const Student& student, bool& isInserted);
     Node* searchHelper(Node* current, int rollNumber) const;
     Node* deleteHelper(Node* current, int rollNumber, bool& isDeleted);
-    void inorderHelper(Node* current) const;
-    void destroyTree(Node* current);
-
-    // ডিলিশনের সময় 2 children কেসে Inorder Successor বের করার হেল্পার
     Node* findMinNode(Node* current) const;
 
-public:
-    // Constructor
-    StudentBST();
+    // Traversals
+    void inorderHelper(Node* current) const;
+    void preorderHelper(Node* current) const;
+    void postorderHelper(Node* current) const;
 
-    // Destructor: সমস্ত মেমোরি রিলিজ করার জন্য
+    // Tree Metrics
+    int countNodes(Node* current) const;
+    int calculateHeight(Node* current) const;
+
+    // Memory Cleanup
+    void destroyTree(Node* current);
+
+public:
+    // Constructor & Destructor
+    StudentBST();
     ~StudentBST();
 
-    // Public API Methods
+    // Core BST Operations
     bool insert(const Student& student);
     Student* search(int rollNumber) const;
     bool deleteStudent(int rollNumber);
-    void showAll() const;
-    bool isEmpty() const;
     bool exists(int rollNumber) const;
+    bool isEmpty() const;
+
+    // Traversal Methods
+    void showAll() const;        // Inorder (Default: Sorted ascending by roll)
+    void showInOrder() const;    // Left -> Root -> Right
+    void showPreOrder() const;   // Root -> Left -> Right
+    void showPostOrder() const;  // Left -> Right -> Root
+
+    // Statistics
+    int getTotalStudents() const;
+    int getHeight() const;
 };
 
 #endif // STUDENT_BST_H

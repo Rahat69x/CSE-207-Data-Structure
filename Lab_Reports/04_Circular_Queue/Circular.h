@@ -40,8 +40,8 @@ public:
             cout << "queue is empty" << endl;
         } else {
             cout << "queue is" << endl;
-            for (int i = f; i < r; i++) {
-                cout << data[i] << endl;
+            for (int i = 0; i < count; i++) {
+                cout << data[(f + i) % 10] << endl;
             }
             cout << endl;
         }
